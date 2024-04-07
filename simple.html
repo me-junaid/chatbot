@@ -7,15 +7,50 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <script type="text/javascript">
+  <canvas id="confetti-canvas"></canvas>
+  <div id="flat-chat"></div>
+  <div id="voiceflow-chat-frame"></div>
+  <script type="module">
+    import {
+        VideoExtension,
+        TimerExtension,
+        FormExtension,
+        MapExtension,
+        FileUploadExtension,
+        KBUploadExtension,
+        DateExtension,
+        ConfettiExtension,
+        FeedbackExtension, } from 'https://me-junaid.github.io/simblifly/extensions.js';
+
     (function(d, t) {
-        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-        v.onload = function() {
-          window.voiceflow.chat.load({
-            verify: { projectID: '660d9a09fa33a39065866ee6' },
-            url: 'https://general-runtime.voiceflow.com',
-            versionID: 'production'
-          });
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+      window.voiceflow.chat.load({
+      verify: { projectID: '660d9a09fa33a39065866ee6' },
+      url: 'https://general-runtime.voiceflow.com',
+      versionID: 'development', // or 'production'
+      user: {
+        name: 'Demo User',
+      },
+      render: {
+        mode: 'overlay',
+      },
+      autostart: false,
+      allowDangerousHTML: true,
+      assistant: {
+        extensions: [
+          VideoExtension,
+          TimerExtension,
+          FormExtension,
+          MapExtension,
+          FileUploadExtension,
+          KBUploadExtension,
+          DateExtension,
+          ConfettiExtension,
+          FeedbackExtension,
+        ]
+      },
+    });
         }
         v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
     })(document, 'script');
