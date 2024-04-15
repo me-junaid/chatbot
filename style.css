@@ -473,6 +473,7 @@ svg:hover{
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.737);
   display: block;
+  z-index: 1;
 }
 
 .popup{
