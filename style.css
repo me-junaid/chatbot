@@ -591,6 +591,13 @@ svg:hover{
   color: #80ff00;
 }
 
+.img-vacancia{
+  position: fixed;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+
 @media screen and (max-width:500px) {
   .pricing{
     background-color: rgb(26, 26, 26);
