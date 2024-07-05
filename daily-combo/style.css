@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+*{
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(26, 26, 26);
+  color: white;
+  margin-top: 60px;
+
+}
+
+body::-webkit-scrollbar{
+  width: 0;
+}
+
+.header{
+  position: fixed;
+  background-color: rgb(26, 26, 26);
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  text-align: center;
+  border-bottom: 1px solid rgb(69, 68, 68);
+  font-family: "Playwrite IT Moderna", cursive;
+}
+
+
+.main-head{
+  color: yellow;
+  display: inline;
+  font-size: 30px;
+}
+
+.main-head p{
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.562);
+  margin-top: -14px;
+  margin-left: 50px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 10px;
+}
+
+.cards{
+  width: 90%;
+  flex-grow: 1;
+  background-color: rgb(43, 43, 43);
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.cards:nth-child(1){
+  margin-top: 10px;
+}
+
+.cards h1{
+  font-weight: 500;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+.cards h1 span{
+  font-size: 13px;
+  color: rgb(153, 153, 153);
+}
+
+.cards img{
+  width: 95%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+
+.morse-code{
+  margin-top: -20px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+
+.morse-p span{
+  font-size: 30px;
+  font-weight: 900;
+  color: yellow;
+  border-bottom: 1px solid black;
+}
+
+.cards a{
+  text-decoration: none;
+  color: yellow;
+}
+
+.cards a div{
+  width: 100%;
+  display: flex;
+}
+
+.cards a div p{
+  width: 250px;
+  font-size: 16px;
+  background-color: rgb(30, 30, 30);
+  padding: 10px;
+  padding-bottom: 14px;
+  border-radius: 15px;
+  transition: 0.5s;
+  border: 2px solid rgb(141, 141, 163);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.countdown div {
+  color: rgb(165, 160, 160);
+  font-size: 14px;
+  margin-top: 17px;
+  margin-left: 20px;
+  pointer-events: none;
+}
