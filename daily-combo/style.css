@@ -131,3 +131,17 @@ body::-webkit-scrollbar{
   margin-left: 20px;
   pointer-events: none;
 }
+
+.mini-video{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mini-video video{
+  border-radius: 20px;
+  padding: 6px;
+  height: 100%;
+  aspect-ratio: 1/1.86;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 0, 0.381);
+}
