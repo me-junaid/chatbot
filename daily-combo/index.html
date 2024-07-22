@@ -25,13 +25,13 @@
       <div class="cards">
         <h1>Hamster Kombat <span>mini game</span></h1>
         <div class="mini-video">
-        <video width="90%" autoplay muted loop>
+        <video id="game-video" width="90%" autoplay muted loop>
           <source src="mini.mp4" type="video/mp4">
       </video></div>
         <a href="">
           <div>
             <div class="countdown">
-              <div id="first"></div>
+              <div id="fifth"></div>
             </div>
             <p>OPEN</p>
           </div>
@@ -52,15 +52,12 @@
       </div>
       <div class="cards">
         <h1>Hamster Kombat <span>Daily cipher</span></h1>
-        <p class="morse-p"><span>REWARD</span></p> 
+        <p class="morse-p"><span>BIP</span></p> 
           <br> 
         <div class="morse-code">
-         <p>• — •</p>
-         <p>•</p>
-         <p>• — —<p>
-         <p>• —<p>
-         <p>• — •<p>  
-         <p>— • •</p>
+         <p>— • • •</p>
+         <p>• •</p>
+         <p>• — — •<p>
         </div>
         <a href="https://t.me/hamsTer_kombat_bot/start?startapp=kentId1378031583">
           <div>
@@ -100,9 +97,28 @@
   </main>
   <script>
     startCountdown('first', 'July 10, 2024 17:30:00'); // Hamster daily combo
-    startCountdown('second', 'July 22, 2024 00:30:00'); // Hamster daily cipher
+    startCountdown('second', 'July 24, 2024 00:30:00'); // Hamster daily cipher
     startCountdown('third', 'July 21, 2024 05:30:00'); // pixelverse
     startCountdown('forth', 'July 13, 2024 00:00:00'); // memefi
+    startCountdown('fifth', 'July 13, 2025 00:00:00'); // hamster mini game
+
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+            const video = document.getElementById('game-video');
+            const startTime = 5; 
+            video.addEventListener('loadedmetadata', () => {
+                video.currentTime = startTime;
+                video.play();
+            });
+
+            video.addEventListener('timeupdate', () => {
+                if (video.currentTime >= video.duration) {
+                    video.currentTime = startTime;
+                    video.play();
+                }
+            });
+        });
+
   </script>
 </body>
 </html>
