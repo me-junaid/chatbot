@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
   -webkit-tap-highlight-color: transparent;
   transition: 0.5s;
 }
-body{
+
+body {
   margin: 0;
   background-color: rgb(9, 9, 9);
   color: white;
@@ -14,23 +16,23 @@ body{
   padding-bottom: 105px;
 }
 
-*::-webkit-scrollbar{
+*::-webkit-scrollbar {
   width: 0;
 }
 
-img{
+img {
   width: 100%;
 }
 
 
-.main{
+.main {
   display: flex;
   width: 100%;
   padding-left: auto;
   padding-right: auto;
 }
 
-.circle{
+.circle {
   width: 25%;
   height: 30px;
   background-color: rgb(26, 26, 26);
@@ -43,7 +45,7 @@ img{
   flex-grow: 1;
 }
 
-.me{
+.me {
   height: 100%;
   display: flex;
   margin-top: 0px;
@@ -51,7 +53,7 @@ img{
   margin-right: 10px;
 }
 
-.mine{
+.mine {
   width: 90px;
   background-color: rgb(36, 36, 36);
   margin-left: auto;
@@ -65,28 +67,28 @@ img{
   padding: 20px;
 }
 
-.mine img{
+.mine img {
   margin-top: 5px;
 }
 
-svg{
+svg {
   margin-top: 7px;
   color: rgb(255, 255, 252);
   transition: 0.25s;
 }
 
-svg:hover{
-  color:var(--color-main);
+svg:hover {
+  color: var(--color-main);
 }
 
-.me img{
+.me img {
   border-top-left-radius: 20px;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 36px;
   border-bottom-right-radius: 20px;
 }
 
-.myname{
+.myname {
   flex-grow: 1;
   padding-top: 1px;
   padding-bottom: 1px;
@@ -94,8 +96,7 @@ svg:hover{
   margin-left: auto;
   margin-right: auto;
   border-radius: 40px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+
   text-align: center;
   color: rgb(255, 255, 255);
   font-size: 15px;
@@ -107,11 +108,11 @@ svg:hover{
   margin-right: -1px;
 }
 
-.div-work{
+.div-work {
   margin-top: 10px;
 }
 
-.works{
+.works {
   height: auto;
   color: white;
   font-family: "Raleway", sans-serif;
@@ -119,22 +120,22 @@ svg:hover{
   text-decoration: underline 8px rgba(255, 255, 255, 0.301);
 }
 
-.demo{
+.demo {
   display: flex;
   flex-wrap: wrap;
 }
 
-.trail{
+.trail {
   width: 45%;
   flex-grow: 1;
   background-color: rgb(26, 26, 26);
-  height: 200px;  
+  height: 200px;
   margin: 1px;
   border-color: rgb(79, 61, 121);
   height: auto;
 }
 
-.trail:nth-child(1){
+.trail:nth-child(1) {
   border-top-left-radius: 20px;
   border-left-width: 1px;
   border-left-style: solid;
@@ -142,7 +143,8 @@ svg:hover{
   border-top-style: solid;
   margin-left: 10px;
 }
-.trail:nth-child(2){
+
+.trail:nth-child(2) {
   border-top-right-radius: 20px;
   margin-right: 10px;
   border-right-width: 1px;
@@ -150,7 +152,8 @@ svg:hover{
   border-top-width: 1px;
   border-top-style: solid;
 }
-.trail:nth-child(3){
+
+.trail:nth-child(3) {
   border-bottom-left-radius: 20px;
   margin-left: 10px;
   border-left-width: 1px;
@@ -158,7 +161,8 @@ svg:hover{
   border-bottom-width: 1px;
   border-bottom-style: solid;
 }
-.trail:nth-child(4){
+
+.trail:nth-child(4) {
   border-bottom-right-radius: 20px;
   margin-right: 10px;
   border-right-width: 1px;
@@ -167,41 +171,43 @@ svg:hover{
   border-bottom-style: solid;
 }
 
-.trail li{
+.trail li {
   margin-left: 20px;
   margin-top: 10px;
   color: white;
   margin-right: 10px;
 }
 
-.trail ul{
+.trail ul {
   margin-left: -20px;
   margin-top: 10px;
   color: var(--color-main);
   margin-right: 5px;
 }
 
-.h1 , .h2, .h3{
+.h1,
+.h2,
+.h3 {
   text-align: center;
   text-decoration: var(--color-main);
 }
 
-.div-price{
+.div-price {
   display: flex;
   flex-wrap: wrap;
 }
 
-.pricing{
+.pricing {
   background-color: rgb(26, 26, 26);
   width: 250px;
   margin: 10px;
   flex-grow: 1;
   position: relative;
-  padding-bottom: 60px;  
+  padding-bottom: 60px;
   border-radius: 10px;
 }
 
-.h1-price{
+.h1-price {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -210,8 +216,8 @@ svg:hover{
 
 }
 
-.pricing ul{
-  margin-top:20px;
+.pricing ul {
+  margin-top: 20px;
   margin-left: -20px;
   margin-bottom: 10px;
   font-size: 20px;
@@ -219,14 +225,15 @@ svg:hover{
   font-weight: 500;
 }
 
-.pricing li{
+.pricing li {
   margin: 7px;
   margin-left: 20px;
   color: white;
   font-size: 18px;
 }
 
-.sample,.sample2{
+.sample,
+.sample2 {
   width: 50px;
   height: 50px;
   background-color: #00000035;
@@ -238,11 +245,11 @@ svg:hover{
   transition: 0.5s;
 }
 
-.sample:hover{
+.sample:hover {
   background-color: #000000;
 }
 
-.sample svg{
+.sample svg {
   width: 20px;
   height: 20px;
   margin-left: 15px;
@@ -250,17 +257,18 @@ svg:hover{
   color: rgb(255, 255, 255);
 }
 
-.sample svg:hover, .sample2 svg:hover{
+.sample svg:hover,
+.sample2 svg:hover {
   color: white;
 }
 
-.sample2{
+.sample2 {
   left: 0px;
   bottom: 0px;
   background-color: rgba(0, 0, 0, 0);
 }
 
-.sample2 svg{
+.sample2 svg {
   width: 20px;
   height: 20px;
   margin-left: 15px;
@@ -269,11 +277,12 @@ svg:hover{
   transition: 1s;
 }
 
-.div-skill{
+.div-skill {
   display: flex;
   flex-wrap: wrap;
 }
-.skills{
+
+.skills {
   height: 4px;
   width: 70%;
   flex-grow: 1;
@@ -283,65 +292,73 @@ svg:hover{
   padding: 5px;
 }
 
-.percentage{
+.percentage {
   height: 100%;
   background-color: rgb(79, 79, 79);
   border-radius: 10px;
 }
 
-.child1{
+.child1 {
   background-color: var(--color-main);
   height: 100%;
   border-radius: 10px;
   width: 100%;
 }
 
-.child2{
+.child2 {
   width: 90%;
   background-color: var(--color-main);
   height: 100%;
   border-radius: 10px;
 }
 
-.child3{
+.child3 {
   background-color: var(--color-main);
   height: 100%;
   border-radius: 10px;
   width: 70%;
 }
 
-.child4{
+.child4 {
   background-color: var(--color-main);
   height: 100%;
   border-radius: 10px;
-  height: 100%;
+  width: 100%;
 }
 
-.h2, .h3{
+.child5 {
+  background-color: var(--color-main);
+  height: 100%;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.h2,
+.h3 {
   text-decoration: var(--color-main);
   margin-bottom: 20px;
 }
 
-.div-skill p{
+.div-skill p {
   width: 100%;
   margin-top: 5px;
   margin-bottom: 0;
   margin-left: 17px;
 }
 
-.about{
+.about {
   margin: 15px;
   text-align: justify;
   text-align: center;
 }
 
-.div-dot{
+.div-dot {
   display: flex;
   justify-content: center;
   margin-bottom: 12px;
 }
 
-.endot{
+.endot {
   width: 3px;
   height: 3px;
   background-color: rgb(255, 255, 255);
@@ -349,7 +366,8 @@ svg:hover{
   margin-right: 2%;
   border-radius: 50%;
 }
-.endot:hover{
+
+.endot:hover {
   width: 3px;
   height: 3px;
   background-color: rgb(158, 158, 158);
@@ -357,11 +375,12 @@ svg:hover{
   margin-right: 2%;
   border-radius: 50%;
 }
-.h4{
+
+.h4 {
   text-align: center;
 }
 
-.footer{
+.footer {
   height: 83px;
   width: 100%;
   margin: 0;
@@ -369,10 +388,13 @@ svg:hover{
   position: fixed;
   bottom: 13px;
   z-index: 1000;
-
 }
 
-.foot{
+.footer div svg:hover {
+  color: white;
+}
+
+.foot {
   height: 100%;
   width: 60px;
   background-color: white;
@@ -383,46 +405,47 @@ svg:hover{
   margin-left: -100px;
 }
 
-.foot:nth-child(1){
+.foot:nth-child(1) {
   background-color: rgb(10, 10, 10);
 }
-.foot:nth-child(2){
+
+.foot:nth-child(2) {
   background-color: rgb(20, 11, 10);
 }
-.foot:nth-child(3){
+
+.foot:nth-child(3) {
   background-color: rgb(20, 20, 20);
 }
-.foot:nth-child(4){
+
+.foot:nth-child(4) {
   background-color: rgb(30, 30, 30);
   margin-right: 2px;
 }
-.foot-font{
+
+.foot-font {
   position: absolute;
   right: 100px;
   top: 26px;
-  font-size: 25px;
+  font-size: 17px;
   color: rgb(173, 171, 171);
   font-weight: 500;
 }
 
-.foot-font svg{
-  margin-left: 10px;
+.foot-font svg {
+  margin-left: 14px;
 }
 
-.black{
-  height: 40px;
+.black {
+  height: 90px;
   width: 100%;
-  background-color: black;
-  position: fixed;
-  bottom: 0;
 }
 
-.addFlex{
+.addFlex {
   display: flex;
   flex-wrap: wrap;
 }
 
-.addOn{
+.addOn {
   width: 300px;
   flex-grow: 1;
   margin: 2px;
@@ -438,44 +461,45 @@ svg:hover{
   background-color: rgb(20, 20, 20);
 }
 
-.addOn svg{
+.addOn svg {
   font-size: 22px;
 }
 
 
-.addOn p, .addOn svg{
+.addOn p,
+.addOn svg {
   display: inline-block;
   padding: 0;
   margin: 0;
   transition: 0.5s;
 }
 
-.addOn svg{
+.addOn svg {
   margin-left: 5px;
   margin-bottom: -2px;
 }
 
-.addOn p{
+.addOn p {
   font-size: 17px;
   margin-left: 20px;
 }
 
-.addOn p:hover{
+.addOn p:hover {
   display: inline-block;
   padding-right: 5%;
 }
 
-#blackish{
+#blackish {
   position: fixed;
   top: 0px;
   right: 0px;
   left: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.737);
-  z-index: 1;
+  display: block;
 }
 
-.popup{
+.popup {
   position: fixed;
   right: 10px;
   left: 10px;
@@ -486,11 +510,11 @@ svg:hover{
   cursor: pointer;
 }
 
-.popup div{
+.popup div {
   width: 300px;
   height: 100%;
   background-color: black;
-  justify-content: center;  
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
@@ -500,18 +524,18 @@ svg:hover{
   position: relative;
 }
 
-.popup div p{
+.popup div p {
   text-align: center;
   margin: 20px;
-  margin-top:35px;
+  margin-top: 35px;
 }
 
-.popup div p span{
+.popup div p span {
   color: #635bff;
   font-weight: 700;
 }
 
-.popup div svg{
+.popup div svg {
   position: absolute;
   color: red;
   cursor: pointer;
@@ -519,11 +543,11 @@ svg:hover{
   right: 10px;
 }
 
-.popup div svg:hover{
+.popup div svg:hover {
   color: rgb(219, 1, 1);
 }
 
-.chat{
+.chat {
   width: 60px;
   height: 60px;
   background-color: rgb(46, 46, 46);
@@ -535,15 +559,15 @@ svg:hover{
   cursor: pointer;
 }
 
-.chat:hover{
+.chat:hover {
   background-color: #292929;
 }
 
-.chat svg{
+.chat svg {
   margin: 20%;
 }
 
-.overthe{
+.overthe {
   position: fixed;
   bottom: 96px;
   right: 5px;
@@ -560,15 +584,15 @@ svg:hover{
   margin-left: 3px;
 }
 
-.overthe div{
+.overthe div {
   text-align: center;
 }
 
-.overthe p{
+.overthe p {
   margin: 0;
 }
 
-.overthe p svg{
+.overthe p svg {
   vertical-align: top;
   margin: 0;
   margin-top: 3px;
@@ -577,36 +601,35 @@ svg:hover{
   cursor: pointer;
 }
 
-.overthe p svg:hover{
+.overthe p svg:hover {
   color: #80ff00a4;
 }
 
-#sorry{
+#sorry {
   margin-right: 5px;
   margin-top: 2px;
   cursor: default;
 }
 
-#sorry:hover{
+#sorry:hover {
   color: #80ff00;
 }
 
-.img-vacancia{
+.img-vacancia {
   position: fixed;
   bottom: 0;
-  z-index: 9000;
+  opacity: 0.8;
 }
 
-
 @media screen and (max-width:500px) {
-  .pricing{
+  .pricing {
     background-color: rgb(26, 26, 26);
     border-color: rgb(79, 61, 121);
     border-width: 1px;
     border-radius: 0;
   }
 
-  .pricing:nth-child(1){
+  .pricing:nth-child(1) {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-bottom: 1px;
@@ -614,13 +637,15 @@ svg:hover{
     border-right-style: solid;
     border-top-style: solid;
   }
-  .pricing:nth-child(2){
+
+  .pricing:nth-child(2) {
     margin-top: 1px;
     margin-bottom: 1px;
     border-left-style: solid;
     border-right-style: solid;
   }
-  .pricing:nth-child(3){
+
+  .pricing:nth-child(3) {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-top: 1px;
@@ -628,8 +653,8 @@ svg:hover{
     border-right-style: solid;
     border-bottom-style: solid;
   }
-  
-  .addOn:nth-child(1){
+
+  .addOn:nth-child(1) {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     margin-bottom: 0;
@@ -637,7 +662,7 @@ svg:hover{
     border-bottom-color: black;
   }
 
-  .addOn:nth-child(2){
+  .addOn:nth-child(2) {
     border-radius: 0;
     margin-top: 0;
     margin-bottom: 0;
@@ -648,7 +673,7 @@ svg:hover{
 
   }
 
-  .addOn:nth-child(3){
+  .addOn:nth-child(3) {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     margin-top: 0;
