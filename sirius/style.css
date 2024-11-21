@@ -26,6 +26,7 @@ body {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   padding-top: 40px;
+  height: 100dvh;
 }
 
 /* .fixed-load {
@@ -488,9 +489,6 @@ hr {
 }
 
 @media screen and (max-width : 440px) {
-  html{
-    height: 100vh;
-  }
   .main-1 {
     height: calc(100vh - 170px);
   }
