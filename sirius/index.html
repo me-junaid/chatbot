@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sirius</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+    integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="desktop">
+    <!-- <div class="fixed-load" id="fixed-load">
+      <div class="pop">
+      </div>
+    </div> -->
+    <div class="header">
+      <h1>
+        <!-- <span class="main-title">o</span>
+        <span class="main-title">r</span>
+        <span class="main-title">g</span>
+        <span class="main-title">e</span>
+        <span class="main-title">t</span>
+        <span class="main-title">i</span>
+        <span class="main-title">s</span>
+        <span class="main-title">e</span> -->
+        sirius
+      </h1>
+    </div>
+
+    <div class="rows main-1">
+      <div class="columns">
+        <div class="service-logo">
+          <div class="contain-logo">
+            <img src="menn.webp" alt="">
+          </div>
+        </div>
+        <div class="services">
+          <div class="service-title">
+            <h1><span class="linear">Product recommendation</span><span class="r-opacity"></span></h1>
+            <h5>AI prowered personalized recommendation</h5>
+            <!-- <h4>
+              Leverage cutting-edge AI to connect with your customers, providing them with recommendations of products
+              according to your understanding of their preferences. In this way, by basing your recommendations on your
+              knowledge of client needs, you can soar conversion rates, enhance customer satisfaction, and help business
+              development-through sheer brilliance.
+            </h4> -->
+          </div>
+          <div class="service-discription">
+            <input type="text" placeholder="Know about">
+            <div>
+              <img src="service-send.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="service-logo">
+          <div class="contain-logo"></div>
+          <img src="menn.webp" alt="">
+        </div>
+        <div class="services">
+          <div class="service-title">
+            <h1><span class="linear">Web Development</span></h1>
+            <h5>AI prowered dynamic websites</h5>
+            <!-- <h4>We connect CRM to the chatbot which helps to get a better conversion rate.</h4> -->
+          </div>
+          <div class="service-discription">
+            <input type="text" placeholder="Know about">
+            <div>
+              <img src="service-send.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="service-logo">
+          <div class="contain-logo"></div>
+          <img src="menn.webp" alt="">
+        </div>
+
+        <div class="services">
+          <div class="service-title">
+            <h1><span class="linear">AI Agents</span></h1>
+            <h5>for customer service</h5>
+
+            <!-- <h4>This is basically a chat agent that we add on bottom of your website which response all time.</h4> -->
+          </div>
+          <div class="service-discription">
+            <input type="text" placeholder="Know about">
+            <div>
+              <img src="service-send.svg" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="columns">
+        <div class="service-logo">
+          <div class="contain-logo"></div>
+          <img src="menn.webp" alt="">
+        </div>
+        <div class="services">
+          <div class="service-title">
+            <h1><span class="linear">Lead Capturing</span></h1>
+            <h5>Capturing valid lead from the vistors</h5>
+            <!-- <h4>We connect CRM to the chatbot which helps to get a better conversion rate.</h4> -->
+          </div>
+          <div class="service-discription">
+            <input type="text" placeholder="know about">
+            <div>
+              <img src="service-send.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="service-logo">
+          <div class="contain-logo"></div>
+          <img src="menn.webp" alt="">
+        </div>
+        <div class="services">
+          <div class="service-title">
+            <h1><span class="linear">Social Media Marketing</span></h1>
+            <h5>for the awareness of AI in your business</h5>
+            <!-- <h4>We connect CRM to the chatbot which helps to get a better conversion rate.</h4> -->
+          </div>
+          <div class="service-discription">
+            <input type="text" placeholder="know about">
+            <div>
+              <img src="service-send.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rows main-2">
+      <div class="columns columns-1">
+        <h1 id="typingText" class="typing"></h1>
+        <h1 class="typed-ai">AI</h1>
+      </div>
+      <div class="columns columns-2">
+
+        <div class="input">
+          <input type="text" placeholder="How can I help you?" onchange="fixedLoad()" id="main-input"
+            onsubmit="fixedLoad()">
+        </div>
+        <div class="input-send" onclick="fixedLoad()">
+          <img src="send.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll">
+      <!-- <h1 class="linear-para" id="about-us">
+        Building AI solutions isn't just about technology it's about creating the future, one
+        intelligent decision at a time.
+      </h1> -->
+    </div>
+
+    <div class="containers">
+      <div class="cards  card1">
+        <h1><span class="linear">Ecommerce</span></h1>
+        <div class="card-details">
+          <p><span class="linear">Product Recommendations</span><br>Instantly suggesting relevant products based on
+            search terms.</p>
+          <p><span class="linear">Chatbots and Virtual Assistants</span><br>AI-powered chatbots provide 24/7 support,
+            answering FAQs, resolving issues, and guiding customers through the shopping journey.</p>
+          <p><span class="linear">Customer Retention</span><br>By providing better service and personalization, AI helps
+            retain customers, saving on acquisition costs.</p>
+          <!-- <p><span class="linear">Automation</span><br>AI automates repetitive tasks like order processing, logistics, and data entry, reducing operational costs.</p> -->
+        </div>
+      </div>
+      <div class="cards card2">
+        <h1><span class="linear">Real estate</span></h1>
+        <div class="card-details">
+          <p><span class="linear">Smart Search Tools</span><br>AI algorithms help buyers and renters find properties
+            that match their preferences by analyzing search criteria, location, budget, and lifestyle needs.</p>
+          <p><span class="linear">AI-Powered CRMs</span><br>AI systems segment potential buyers or tenants, prioritize
+            leads, and capture to CRM</p>
+          <p><span class="linear">Chatbots</span><br>Automated bots provide 24/7 customer support, answer queries, and
+            guide users through listings.</p>
+        </div>
+      </div>
+      <div class="cards">
+        <h1><span class="linear">Agency</span></h1>
+        <div class="card-details">
+          <p><span class="linear">Automated Tasks</span><br>AI tools can handle repetitive tasks like data entry,
+            scheduling, and email management, freeing up time for employees to focus on strategic work.</p>
+          <p><span class="linear">24/7 Support</span><br>Chatbots and virtual assistants ensure round-the-clock customer
+            support, improving client satisfaction.</p>
+          <p><span class="linear">Lead Scoring</span><br>AI identifies and prioritizes high-quality
+            leads, improving conversion rates.
+          </p>
+        </div>
+      </div>
+      <div class="cards">
+        <h1><span class="linear">Health care</span></h1>
+        <div class="card-details">
+          <p><span class="linear">Virtual Health Assistants</span><br>AI chatbots provide instant responses to patient
+            inquiries, help schedule appointments, and remind patients to take medications.
+          </p>
+          <p><span class="linear">Effortless Booking</span><br>Patients can schedule appointments via chat or voice
+            commands without waiting for human staff.
+          </p>
+          <p><span class="linear">Personalized Recommendations</span><br>Analyze patient needs, such as symptoms or
+            medical history, to suggest the most relevant specialists.
+          </p>
+        </div>
+      </div>
+      <div class="cards last-card">
+        <h1><span class="linear">for your Business</span></h1>
+        <div class="for-you">
+          <input type="text" placeholder="Discribe your business..">
+          <img src="send.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="divide-footer">
+      <strong>Quick links</strong>
+      <p>Features <i class="bi bi-send  quick-send"></i></p>
+      <p>Pricing <i class="bi bi-send quick-send"></i></p>
+      <p>Support <i class="bi bi-send quick-send"></i></p>
+      <p>Contact Us <i class="bi bi-send quick-send"></i></p>
+    </div>
+    <div class="divide-footer">
+      <strong>Resources</strong>
+      <p>FAQs <i class="bi bi-send quick-send"></i></p>
+      <p>Case Studies <i class="bi bi-send quick-send"></i></p>
+      <p>Privacy Policy <i class="bi bi-send quick-send"></i></p>
+      <p> Terms of Service <i class="bi bi-send quick-send"></i></p>
+    </div>
+    <div class="divide-footer connect-us">
+      <p><strong>Stay Connected</strong></p>
+      <div class="social-icons">
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-linkedin"></i>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="copyright">
+    <p>Copyright © 2024 Openwave AI. All rights reserved.</p>
+    <p>India</p>
+  </div>
+
+  <!-- --------------------------------------------------- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script src="function.js"></script>
+</body>
+
+</html>
